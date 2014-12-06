@@ -1,0 +1,130 @@
+<!--DOCTYPE HTML-->
+<html>
+	<head>
+		<!-- <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon"> -->
+		<!-- <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon"> -->
+		<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+		<link rel="shortcut icon" href="assets/img/profile.png">
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+		<script src="assets/js/script.js"></script>
+		<title>-- Hao Huang --</title>
+	</head>
+
+	<body>
+		<!--begin HTML for navigation bar-->
+		<div id="topbar">
+<!-- 			<a href="#home-wrapper"><div id="logo">Huang<span id="at">@</span><div id="cal">Hao</div></div></a> -->
+
+			<div id="topbar-menu">
+
+				<a href="#connect-wrapper"><div class="topbar-menu-item" id="connect">CONTACT</div></a>
+				<a href="#apply-container"><div class="topbar-menu-item" id="apply">PROJECTS</div></a>
+				<a href="#home-wrapper"><div class="topbar-menu-item" id="staff">ABOUT</div></a>
+				
+			</div>
+			<a href="https://www.linkedin.com/in/clancyhwang" target="_blank">
+				<div class="topbar-menu-item" id="profile-pic">
+						<img class = "img-scaled-wh" src = "assets/img/profile.png">
+				</div>
+			</a>
+		</div>
+		<!--end HTML for navigation bar-->
+
+		<!--begin HTML for home-->
+		<div id="home-wrapper">
+			<div id="background"></div>
+			<div id="home-overlay"></div>
+			<div id="home-container">
+				<div class="home-subheader">Welcome To</div>
+				<div class="home-header">Homepage of Hao Huang</div>
+				<!-- <div id="home-info">I am a senior student @ UC Berkeley studying Computer Science</div> -->
+				<div class="home-subheader">senior student @ UC Berkeley</br> studying Computer Science</div>
+				<!-- <div id="home-button-container">
+					<a href="#about-container"><div id="learn-more" class="home-button">LEARN MORE</div></a>
+					<div id="donate" class="home-button">DONATE</div>
+				</div> -->
+			</div>
+		</div>
+		<!--end HTML for home-->
+
+		<!--begin HTML for apply-->
+		<div id="apply-container">
+			
+			<div id="apply-info-container">
+				<div class="side-header"><div id="apply-header">PROJECTS</div></div>
+				<div id="apply-description">
+					<div class="apply-subheader">School Projects</div>
+					<div class="apply-text">Listed are my Computer Science projects @ UC Berkeley</br></br></br></br></div>
+				</div>
+				<div class="apply-lists" id="apply-benefits">
+					<div class="apply-subheader">Network-linking Game & Machine Player Application (Java)</div>
+					<ul class="apply-text">
+						<li>Divided the whole task into six modules and designed interfaces between pairs of modules</li>
+						<li>Implemented evaluation function, tracking each step in simulator module</li>
+						<li>Optimized selection strategies by using alpha - beta pruning and minimax game tree search in strategy module</li>
+					</ul>
+				</div>
+				<div class="apply-lists" id="apply-responsibilities">
+					<div class="apply-subheader">Image Processing (Java)</div>
+					<ul class="apply-text">
+						<li>Implemented blurring and edge detection image processing operations on image object</li>
+						<li>Implemented evaluation function, tracking each step in simulator module</li>
+						<li>Combined the old image representation and Run-Length Encoding representation to get faster running time </li>
+					</ul>
+				</div>
+				<div class="apply-lists" id="apply-qualifications">
+					<div class="apply-subheader">MapReduce (Java)</div>
+					<!--<div class="apply-text">Below are our ideal qualifications for a CCSD intern. However, all applicants with different ranges of experiences are encouraged to apply. CCSD is dedicated to fostering the development of these skills in applicants who demonstrate potential.</div>-->
+					<ul class="apply-text">
+						<li>Utilized Amazon EC2 servers and Hadoop to solve big data problems about concurrences of words in giant documents</li>
+						<li>Used hash table with a MapReduce approach in java to efficiently organize keys and values</li>
+					</ul>
+				</div>
+
+				
+			</div>
+			<a id="apply-button" href="https://github.com/clancyhwang" target="_blank">SEE MORE</a>
+		</div>
+		<!--end HTML for apply-->
+
+
+		<!--begin HTML for connect-->
+		<div id="connect-wrapper">
+			<div id="connect-overlay"></div>
+			<div id="connect-container">
+				<div class="side-header"><div id="connect-header">CONTACT</div></div>
+				<div id="connect-content">
+				
+					<div class="connect-card">
+						<div class="connect-subheader" id="office-subheader">Resume</div>
+						<a href="https://www.dropbox.com/s/mz6zkeluwb43mhb/Resume%20from%20Hao%20Huang.pdf?dl=0" target="_blank">
+		                    <img class="clickable" src="assets/img/resume.png" />
+		                </a>
+					</div>
+					<div class="connect-card">
+						<div class="connect-subheader" id="partners-subheader">LinkedIn</div>
+						<a href="https://www.linkedin.com/in/clancyhwang" target="_blank">
+							<img class="clickable" src="assets/img/linkedin.png" />
+		                </a>
+					</div>
+					<div class="connect-card">
+						<div class="connect-subheader" id="legal-subheader">Github</div>
+						<a href="https://github.com/clancyhwang" target="_blank">
+		                    <img class="clickable" src="assets/img/github.png" />
+		                </a>
+					</div>
+
+<!-- 					<a href="mailto:clancyhwang@berkeley.edu" target="_blank">
+                        <div id="screen5-content-btn" class="clickable button">
+                            Contact Me
+                        </div>
+                    </a> -->
+				</div>
+			</div>
+		</div>
+		<!--end HTML for connect-->
+
+	</body>
+</html>
